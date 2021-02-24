@@ -197,7 +197,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
+  m_SortingLayerID: 654925899
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!224 &50631492
@@ -499,7 +499,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 522813891}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 14.728366, y: 1.2524112, z: -0.93394536}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -509,10 +509,10 @@ Transform:
   - {fileID: 333333824}
   - {fileID: 1629154330}
   - {fileID: 925977512}
+  - {fileID: 1985693814}
   - {fileID: 1017907726}
   - {fileID: 1244859561}
   - {fileID: 1013789463}
-  - {fileID: 1985693814}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -638,8 +638,8 @@ SortingGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 834492396}
   m_Enabled: 1
-  m_SortingLayerID: 710689413
-  m_SortingLayer: -1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!1 &925977511
 GameObject:
@@ -944,7 +944,7 @@ Transform:
   m_LocalScale: {x: 22.797094, y: 23.01386, z: 1}
   m_Children: []
   m_Father: {fileID: 522813892}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1013789464
 SpriteRenderer:
@@ -1025,7 +1025,7 @@ Transform:
   m_LocalScale: {x: 22.319092, y: 22.478283, z: 1}
   m_Children: []
   m_Father: {fileID: 522813892}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1017907727
 SpriteRenderer:
@@ -1284,7 +1284,7 @@ Transform:
   m_LocalScale: {x: 21.431372, y: 22.210495, z: 1}
   m_Children: []
   m_Father: {fileID: 522813892}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1244859562
 SpriteRenderer:
@@ -4761,7 +4761,7 @@ GameObject:
   - component: {fileID: 1985693814}
   - component: {fileID: 1985693815}
   m_Layer: 0
-  m_Name: Trees (1)
+  m_Name: Trees (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4779,7 +4779,7 @@ Transform:
   m_LocalScale: {x: 22.100224, y: 20.564552, z: 1}
   m_Children: []
   m_Father: {fileID: 522813892}
-  m_RootOrder: 9
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1985693815
 SpriteRenderer:
@@ -4915,6 +4915,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2013027508}
   - component: {fileID: 2013027507}
+  - component: {fileID: 2013027509}
   m_Layer: 0
   m_Name: TileMap
   m_TagString: Untagged
@@ -4949,6 +4950,17 @@ Transform:
   m_Father: {fileID: 834492397}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!210 &2013027509
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013027506}
+  m_Enabled: 1
+  m_SortingLayerID: 870743761
+  m_SortingLayer: -2
+  m_SortingOrder: 0
 --- !u!1 &2073348398
 GameObject:
   m_ObjectHideFlags: 0
@@ -4974,7 +4986,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2073348398}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.925, y: 3.217, z: 0}
+  m_LocalPosition: {x: -6.63, y: 3.217, z: 0}
   m_LocalScale: {x: 21.7788, y: 22.843256, z: 1}
   m_Children: []
   m_Father: {fileID: 834492397}
@@ -5016,8 +5028,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 710689413
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e960a4e6c78af294f962765466cf7806, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

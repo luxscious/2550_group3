@@ -46,7 +46,7 @@ TagManager:
   - name: Ground + Clouds+Trees
     uniqueID: 870743761
     locked: 0
-  - name: Level Seperator
+  - name: Buildings
     uniqueID: 710689413
     locked: 0
   - name: Default
@@ -54,4 +54,7 @@ TagManager:
     locked: 0
   - name: Foreground
     uniqueID: 730099893
+    locked: 0
+  - name: Health Bar
+    uniqueID: 654925899
     locked: 0
