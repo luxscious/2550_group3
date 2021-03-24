@@ -1,16 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class playerController : MonoBehaviour {
 
     public float speed = 10f;
     public float jumpForce = 400f;
+    public float hitForce = -1f;
     public int maxHealth = 100;
     public Transform groundCheck;
     public float groundCheckRadius;
     public LayerMask groundLayer;
     public int currentHealth;
+    public bool ratKing;
+    private float exp;
 
     public Animator animator; 
     private Rigidbody2D rigidBody;
@@ -25,6 +29,8 @@ public class playerController : MonoBehaviour {
     void Start() {
         rigidBody = GetComponent<Rigidbody2D>();
 
+        ratKing = false;
+
         //start with full health
         currentHealth = maxHealth;
         HealthBar.SetMaxHealth(maxHealth);
@@ -32,6 +38,9 @@ public class playerController : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
+
+        exp = playerAttack.exp;
+
         onGround = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
 
         horizontalInput = Input.GetAxisRaw("Horizontal") * speed;
@@ -43,10 +52,12 @@ public class playerController : MonoBehaviour {
             jump = true;
         }
 
-        //subtract health when player is hit
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            TakeDamage(10);
+        if(currentHealth < 0) {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name, LoadSceneMode.Single);
+        }
+
+        if(exp > 5) {
+            ratKing = true;
         }
     }
 
@@ -61,8 +72,10 @@ public class playerController : MonoBehaviour {
 
                 if(move > 0 && !facingRight) {
                     Flip();
+                    hitForce = -1f;
                 } else if(move < 0 && facingRight) {
                     Flip();
+                    hitForce = 1f;
                 }
         }
         if(jump) {
@@ -84,5 +97,16 @@ public class playerController : MonoBehaviour {
     {
         currentHealth -= damage;
         HealthBar.SetHealth(currentHealth);
+    }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        Debug.Log(col.gameObject.name + " : " + gameObject.name + " : " + Time.time);
+        if(col.name == "ratEnemyPH(Clone)"  && ratKing) {
+            
+        } else {
+            TakeDamage(10);
+            rigidBody.AddForce(new Vector2(0f, 200f));
+        }
     }
 }

@@ -47,6 +47,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\_Scripts\playerAttack.cs" />
      <Compile Include="Assets\_Scripts\playerController.cs" />
      <Compile Include="Assets\_Scripts\PopUpSystem.cs" />
      <Compile Include="Assets\_Scripts\CharacterSelection.cs" />
