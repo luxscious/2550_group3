@@ -400,6 +400,36 @@ MonoBehaviour:
   cameraBorderMin: 0
   cameraBorderMax: 30
   cameraHeight: 4.5
+--- !u!1 &329700104
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 329700105}
+  m_Layer: 0
+  m_Name: GroundCheckGirl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &329700105
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329700104}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.45000005, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1030890666}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &333333823
 GameObject:
   m_ObjectHideFlags: 0
@@ -917,7 +947,7 @@ PrefabInstance:
     - target: {fileID: 4965630236517878133, guid: baf5e9bac96db1a46bfbdf1edc61ecf3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 4965630236517878133, guid: baf5e9bac96db1a46bfbdf1edc61ecf3,
         type: 3}
@@ -1366,7 +1396,7 @@ PrefabInstance:
     - target: {fileID: 5382966402972556030, guid: f71b4ac47d9b52b49b4d4c51ecbb785f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 5382966402972556030, guid: f71b4ac47d9b52b49b4d4c51ecbb785f,
         type: 3}
@@ -1541,15 +1571,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: b6dddccccdd99e5409d5f84e2d264701, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.76, y: 0.78}
+  m_Size: {x: 0.96, y: 0.96}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1629154329
@@ -1671,7 +1701,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1639530001}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.3582525, y: 0.5246571, z: 1.1346132}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.58366805, y: 0.4082299, z: 1}
   m_Children:
   - {fileID: 1030890666}
@@ -1689,7 +1719,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1691504444}
   m_Layer: 0
-  m_Name: GroundCheck
+  m_Name: GroundCheckBoy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1703,11 +1733,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1691504443}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.08039999, y: 0.5452003, z: -1}
-  m_LocalScale: {x: 3.4999993, y: 3.4999993, z: 1}
+  m_LocalPosition: {x: 0, y: -0.45, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 1305015104}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1843081126 stripped
 GameObject:
@@ -1749,7 +1779,7 @@ MonoBehaviour:
   speed: 10
   jumpForce: 400
   maxHealth: 100
-  groundCheck: {fileID: 1691504444}
+  groundCheck: {fileID: 329700105}
   groundCheckRadius: 0.5
   groundLayer:
     serializedVersion: 2
@@ -1834,7 +1864,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: f374147c66dbe7f4285950c3622faaf1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1920,7 +1950,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871624177}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.53, y: 1.29, z: -1.1346132}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.7133025, y: 2.4496, z: 1}
   m_Children:
   - {fileID: 1639530003}
@@ -1941,7 +1971,7 @@ GameObject:
   - component: {fileID: 1969150442}
   m_Layer: 8
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
