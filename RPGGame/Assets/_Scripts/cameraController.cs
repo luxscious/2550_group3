@@ -7,7 +7,8 @@ using UnityEngine;
 public class cameraController : MonoBehaviour {
 
     // Vars for player object, camera offset, smoothening value and the smooth velocity
-    public GameObject player;
+    private GameObject player;
+    public GameObject[] characters;
     private float cameraBorder, smoothValue = 0.4f;
     public float cameraBorderMin = -2f, cameraBorderMax = 20f, cameraHeight = 4.5f;
     private Vector3 cameraPosition;
@@ -16,7 +17,10 @@ public class cameraController : MonoBehaviour {
     private Vector3 smoothVelocity = Vector3.zero;
 
     private float horizontalInput;
-
+    private void Start()
+    {
+         player = characters[PlayerPrefs.GetInt("CharacterSelection")];
+    }   
     void Update() {
         horizontalInput = Input.GetAxisRaw("Horizontal");
     }
