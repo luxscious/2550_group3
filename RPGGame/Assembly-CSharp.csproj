@@ -56,12 +56,13 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\__Scripts\playerController.cs" />
-    <Compile Include="Assets\__Scripts\cameraController.cs" />
-    <Compile Include="Assets\__Scripts\enemySpawn.cs" />
-    <Compile Include="Assets\__Scripts\healthBar.cs" />
-    <Compile Include="Assets\__Scripts\PopUpSystem.cs" />
-    <Compile Include="Assets\__Scripts\IntroMessage.cs" />
+    <Compile Include="Assets\_Scripts\playerController.cs" />
+    <Compile Include="Assets\_Scripts\PopUpSystem.cs" />
+    <Compile Include="Assets\_Scripts\CharacterSelection.cs" />
+    <Compile Include="Assets\_Scripts\IntroMessage.cs" />
+    <Compile Include="Assets\_Scripts\cameraController.cs" />
+    <Compile Include="Assets\_Scripts\enemySpawn.cs" />
+    <Compile Include="Assets\_Scripts\healthBar.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
