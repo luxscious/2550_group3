@@ -475,7 +475,7 @@ MonoBehaviour:
   - {fileID: 1843081126}
   - {fileID: 1378321001}
   cameraBorderMin: 0
-  cameraBorderMax: 30
+  cameraBorderMax: 46
   cameraHeight: 4.5
 --- !u!1 &269144488
 GameObject:
@@ -1453,7 +1453,7 @@ PrefabInstance:
     - target: {fileID: 4965630236517878133, guid: baf5e9bac96db1a46bfbdf1edc61ecf3,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 3
+      value: 3.0335999
       objectReference: {fileID: 0}
     - target: {fileID: 4965630236517878133, guid: baf5e9bac96db1a46bfbdf1edc61ecf3,
         type: 3}
@@ -1463,7 +1463,7 @@ PrefabInstance:
     - target: {fileID: 4965630236517878133, guid: baf5e9bac96db1a46bfbdf1edc61ecf3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.0162
       objectReference: {fileID: 0}
     - target: {fileID: 4965630236517878133, guid: baf5e9bac96db1a46bfbdf1edc61ecf3,
         type: 3}
@@ -2151,7 +2151,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 3
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -2523,7 +2523,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 3
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
