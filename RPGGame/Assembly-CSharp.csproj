@@ -56,10 +56,16 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\__Scripts\Interactable.cs" />
+    <Compile Include="Assets\__Scripts\spawnFruits.cs" />
     <Compile Include="Assets\__Scripts\playerController.cs" />
+    <Compile Include="Assets\__Scripts\InventoryUI.cs" />
+    <Compile Include="Assets\__Scripts\ItemPickup.cs" />
+    <Compile Include="Assets\__Scripts\Item.cs" />
     <Compile Include="Assets\__Scripts\cameraController.cs" />
     <Compile Include="Assets\__Scripts\enemySpawn.cs" />
     <Compile Include="Assets\__Scripts\healthBar.cs" />
+    <Compile Include="Assets\__Scripts\Inventory.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
