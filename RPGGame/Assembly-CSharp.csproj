@@ -69,6 +69,30 @@
     <Compile Include="Assets\_Scripts\_enemies\ghost_move.cs" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
+=======
+     <Compile Include="Assets\_Scripts\_enemies\enemySpawn.cs" />
+     <Compile Include="Assets\_Scripts\panelOpener.cs" />
+     <Compile Include="Assets\_Scripts\playerAttack.cs" />
+     <Compile Include="Assets\_Scripts\playerController.cs" />
+     <Compile Include="Assets\_Scripts\InventoryUI.cs" />
+     <Compile Include="Assets\_Scripts\_enemies\bat_move.cs" />
+     <Compile Include="Assets\_Scripts\PopUpSystem.cs" />
+     <Compile Include="Assets\_Scripts\Inventory.cs" />
+     <Compile Include="Assets\_Scripts\CharacterSelection.cs" />
+     <Compile Include="Assets\_Scripts\_enemies\fireball_move.cs" />
+     <Compile Include="Assets\_Scripts\_enemies\shooterbat_attack.cs" />
+     <Compile Include="Assets\_Scripts\_enemies\BOSS.cs" />
+     <Compile Include="Assets\_Scripts\Item.cs" />
+     <Compile Include="Assets\_Scripts\IntroMessage.cs" />
+     <Compile Include="Assets\_Scripts\_enemies\rat_movement.cs" />
+     <Compile Include="Assets\_Scripts\cameraController.cs" />
+     <Compile Include="Assets\_Scripts\ItemPickup.cs" />
+     <Compile Include="Assets\_Scripts\Interactable.cs" />
+     <Compile Include="Assets\_Scripts\spawnFruits.cs" />
+     <Compile Include="Assets\_Scripts\healthBar.cs" />
+     <Compile Include="Assets\_Scripts\_enemies\ghost_move.cs" />
+>>>>>>> Stashed changes
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -81,6 +105,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\Medieval_pixel_art_asset_FREE\pixel_snapping_README.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
