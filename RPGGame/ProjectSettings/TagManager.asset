@@ -7,6 +7,11 @@ TagManager:
   - Ground
   - rat
   - GameManager
+  - Apple
+  - Berry
+  - SlotsParent
+  - LevelChanger
+  - potion
   layers:
   - Default
   - TransparentFX
@@ -61,4 +66,7 @@ TagManager:
     locked: 0
   - name: Health Bar
     uniqueID: 654925899
+    locked: 0
+  - name: Inventory
+    uniqueID: 295076325
     locked: 0
